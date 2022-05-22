@@ -39,17 +39,19 @@ export const data = [
   {
     id: 5,
     image: IMG1,
-    title: "Real Estate Website",
-    github: "https://github.com/sazzadhossainapple/react-real-estate-website",
-    demo: "https://condescending-banach-345fae.netlify.app/",
+    title: "Book records of a Library",
+    github:
+      "https://github.com/sazzadhossainapple/CRUD-operations-on-book-records-of-a-library",
+    demo: "https://book-records-library.herokuapp.com/swagger-ui/index.html?configUrl=%2Fv3%2Fapi-docs%2Fswagger-config&fbclid=IwAR1EdpiXmvF9Sgnpgfr7tnVEnniWfIN32bwFmYQrLQgXx72aQBvpVyt2UxY",
     category: "Java",
   },
   {
     id: 6,
     image: IMG1,
-    title: "Real Estate Website",
-    github: "https://github.com/sazzadhossainapple/react-real-estate-website",
-    demo: "https://condescending-banach-345fae.netlify.app/",
-    category: "React Js",
+    title: "School Event and Attendance System",
+    github:
+      "https://github.com/sazzadhossainapple/School-event-and-attendance-management-system-springboot-vaadin",
+    demo: "https://schooleventmanagementsystem.herokuapp.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config",
+    category: "Java",
   },
 ];
