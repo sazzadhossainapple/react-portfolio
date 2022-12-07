@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import AVTR1 from "../../asserts/avatar1.jpg";
-import AVTR2 from "../../asserts/avater1.jpg";
+import AVTR2 from "../../asserts/me.jpg";
 // import AVTR3 from "../../asserts/avatar3.jpg";
 import "./testimonials.css";
 

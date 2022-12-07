@@ -1,6 +1,6 @@
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
-import ME from "../../asserts/me6.png";
+import ME from "../../asserts/bgImage.png";
 import CTA from "./CTA";
 import "./header.css";
 import HeaderSocials from "./HeaderSocials";
@@ -11,7 +11,7 @@ const Header = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: false,
-      strings: ["Web", "Java"],
+      strings: ["MERN Stack", "Java"],
     });
   }, []);
 
@@ -26,7 +26,7 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="me" />
+          <img className="img-me" src={ME} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

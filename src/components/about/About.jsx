@@ -2,7 +2,7 @@ import React from "react";
 import { BiSupport } from "react-icons/bi";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import ME from "../../asserts/me.jpg";
+import ME from "../../asserts/aboutme2.png";
 import "./about.css";
 
 const About = () => {

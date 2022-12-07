@@ -54,6 +54,11 @@ textarea {
   color: var(--color-white);
 }
 
+.contact-btn {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
 /* ========== MEDIA QUERIES (MEDIA DEVICE) ========== */
 @media only screen and (max-width: 1024px) {
   .container.contact__container {

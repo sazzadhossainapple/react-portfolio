@@ -2,14 +2,14 @@
 import React from "react";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
-import IMGFOOTER from "../../asserts/sh-bg-footer.png";
+import IMGFOOTER from "../../asserts/shlogo.png";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        <img src={IMGFOOTER} alt="" />
+        <img className="footerLogo" src={IMGFOOTER} alt="" />
       </a>
 
       <ul className="permalinks">
@@ -38,25 +38,25 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a
-          href="https://www.linkedin.com/in/sazzad-hossain-72824319b/"
+          href="https://www.linkedin.com/in/sazzadhossainapple/"
           target="_blank"
           rel="noreferrer"
         >
-          <BsLinkedin />
+          <BsLinkedin className="footer-socials-icons" />
         </a>
         <a
           href="https://www.instagram.com/sazzadhossain.7/"
           target="_blank"
           rel="noreferrer"
         >
-          <FiInstagram />
+          <FiInstagram className="footer-socials-icons" />
         </a>
         <a
           href="https://www.facebook.com/sazzadhossain.apple"
           target="_blank"
           rel="noreferrer"
         >
-          <BsFacebook />
+          <BsFacebook className="footer-socials-icons" />
         </a>
       </div>
 
