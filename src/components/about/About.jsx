@@ -39,10 +39,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am Sazzad Hossain. I am a front-end web and Java developer. I
-            create web pages with UI/UX user interface. I also make the website
-            more & more interactive with web animations. I can provide clean
-            code and pixel-perfect design.
+            I am Sazzad Hossain. I am a web and React Js developer. I create web
+            pages with UI/UX user interface. I also make the website more & more
+            interactive with web animations. I can provide clean code and
+            pixel-perfect design.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

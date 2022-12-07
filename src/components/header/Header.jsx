@@ -11,7 +11,7 @@ const Header = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: false,
-      strings: ["MERN Stack", "Java"],
+      strings: ["Web", "React Js"],
     });
   }, []);
 
