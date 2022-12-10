@@ -3,6 +3,8 @@ import IMG1 from "../../asserts/portfolio1.png";
 import IMG2 from "../../asserts/portfolio2.png";
 import IMG3 from "../../asserts/portfolio3.png";
 import IMG4 from "../../asserts/portfolio4.png";
+import IMG5 from "../../asserts/portfolio5.png";
+import IMG6 from "../../asserts/portfolio6.png";
 export const data = [
   {
     id: 1,
@@ -14,7 +16,7 @@ export const data = [
   },
   {
     id: 2,
-    image: "https://i.ibb.co/J5v2s9R/portfolio7.png",
+    image: IMG2,
     title: "Online Programming Courses",
     github:
       "https://github.com/sazzadhossainapple/online-learning-platform-client-side",
@@ -23,7 +25,7 @@ export const data = [
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG3,
     title: "Online Products Resales",
     github:
       "https://github.com/sazzadhossainapple/used-products-resale-clients-side",
@@ -41,7 +43,7 @@ export const data = [
   },
   {
     id: 5,
-    image: IMG2,
+    image: IMG5,
     title: "Online Shopping Website",
     github: "https://github.com/sazzadhossainapple/onlineshopping.github.io",
     demo: "https://sazzadhossainapple.github.io/onlineshopping.github.io/",
@@ -49,7 +51,7 @@ export const data = [
   },
   {
     id: 6,
-    image: IMG3,
+    image: IMG6,
     title: "Traveling Agency Website",
     github: "https://github.com/sazzadhossainapple/travelagency.github.io",
     demo: "https://sazzadhossainapple.github.io/travelagency.github.io/",

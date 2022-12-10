@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React, { useRef } from "react";
+import { toast } from "react-hot-toast";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -27,6 +28,7 @@ const Contact = () => {
     // );
 
     e.target.reset();
+    toast.success("Your message sent successfully");
   };
 
   return (
