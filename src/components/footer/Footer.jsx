@@ -22,15 +22,15 @@ const Footer = () => {
         <li>
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testmonials">Testmonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
@@ -45,7 +45,7 @@ const Footer = () => {
           <BsLinkedin className="footer-socials-icons" />
         </a>
         <a
-          href="https://www.instagram.com/sazzadhossain.7/"
+          href="https://www.instagram.com/sazzadhossain__7/"
           target="_blank"
           rel="noreferrer"
         >
