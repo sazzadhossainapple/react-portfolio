@@ -9,11 +9,38 @@ export const data = [
     image: IMG1,
     title: "Real Estate Website",
     github: "https://github.com/sazzadhossainapple/react-real-estate-website",
-    demo: "https://condescending-banach-345fae.netlify.app/",
+    demo: "https://exixrs-real-estates.netlify.app/",
     category: "React Js",
   },
   {
     id: 2,
+    image: "https://i.ibb.co/J5v2s9R/portfolio7.png",
+    title: "Online Programming Courses",
+    github:
+      "https://github.com/sazzadhossainapple/online-learning-platform-client-side",
+    demo: "https://programminglearningreactive.web.app/",
+    category: "React Js",
+  },
+  {
+    id: 3,
+    image: IMG1,
+    title: "Online Products Resales",
+    github:
+      "https://github.com/sazzadhossainapple/used-products-resale-clients-side",
+    demo: "https://e-shoppers-4c7ba.web.app/",
+    category: "React Js",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Photography Service Review",
+    github:
+      "https://github.com/sazzadhossainapple/photography-service-review-client-side",
+    demo: "https://flash-photography-point.web.app/",
+    category: "React Js",
+  },
+  {
+    id: 5,
     image: IMG2,
     title: "Online Shopping Website",
     github: "https://github.com/sazzadhossainapple/onlineshopping.github.io",
@@ -21,37 +48,11 @@ export const data = [
     category: "HTML",
   },
   {
-    id: 3,
+    id: 6,
     image: IMG3,
     title: "Traveling Agency Website",
     github: "https://github.com/sazzadhossainapple/travelagency.github.io",
     demo: "https://sazzadhossainapple.github.io/travelagency.github.io/",
     category: "HTML",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Barber Shob Website",
-    github: "https://github.com/sazzadhossainapple/barbershop.github.io",
-    demo: "https://sazzadhossainapple.github.io/barbershop.github.io/",
-    category: "HTML",
-  },
-  {
-    id: 5,
-    image: IMG1,
-    title: "Book records of a Library",
-    github:
-      "https://github.com/sazzadhossainapple/CRUD-operations-on-book-records-of-a-library",
-    demo: "https://book-records-library.herokuapp.com/swagger-ui/index.html?configUrl=%2Fv3%2Fapi-docs%2Fswagger-config&fbclid=IwAR1EdpiXmvF9Sgnpgfr7tnVEnniWfIN32bwFmYQrLQgXx72aQBvpVyt2UxY",
-    category: "Java",
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: "School Event and Attendance System",
-    github:
-      "https://github.com/sazzadhossainapple/School-event-and-attendance-management-system-springboot-vaadin",
-    demo: "https://schooleventmanagementsystem.herokuapp.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config",
-    category: "Java",
   },
 ];
