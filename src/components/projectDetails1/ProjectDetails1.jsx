@@ -1,10 +1,9 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
-import {
-  default as IMG1,
-  default as IMG2,
-  default as IMG3,
-} from "../../asserts/portfolio3.png";
+import IMG1 from "../../asserts/portfolio3.png";
+import IMG2 from "../../asserts/project2-1.png";
+import IMG3 from "../../asserts/project2-2.png";
+
 const ProjectDetails1 = () => {
   return (
     <section className="project-details">
@@ -37,13 +36,13 @@ const ProjectDetails1 = () => {
           </a>
         </div>
         <div className="project-img">
-          <div>
+          <div className="project-images">
             <img src={IMG1} alt="" />
           </div>
-          <div>
+          <div className="project-images">
             <img src={IMG2} alt="" />
           </div>
-          <div>
+          <div className="project-images">
             <img src={IMG3} alt="" />
           </div>
         </div>

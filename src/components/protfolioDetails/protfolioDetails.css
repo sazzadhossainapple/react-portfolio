@@ -20,7 +20,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
-
+.project-images img {
+  height: 400px;
+  width: 100%;
+}
 .project-dec {
   margin-top: 2rem;
 }
@@ -52,6 +55,11 @@
   }
   .project-link {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+  }
+  .project-images img {
+    height: 100%;
+    width: 100%;
   }
 }
