@@ -18,22 +18,6 @@ const PortfolioItem = ({ portfolioData }) => {
                   <Link className="btn btn-primary newBtn" to={link}>
                     Veiw Details
                   </Link>
-                  {/* <a
-                  href={github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a> */}
-                  {/* <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a> */}
                 </div>
               </article>
             );

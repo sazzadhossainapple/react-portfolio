@@ -1,8 +1,5 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
-import IMG1 from "../../asserts/portfolio3.png";
-import IMG2 from "../../asserts/project2-1.png";
-import IMG3 from "../../asserts/project2-2.png";
 
 const ProjectDetails1 = () => {
   return (
@@ -37,13 +34,13 @@ const ProjectDetails1 = () => {
         </div>
         <div className="project-img">
           <div className="project-images">
-            <img src={IMG1} alt="" />
+            <img src="https://i.ibb.co/v4jfWpB/portfolio3.png" alt="" />
           </div>
           <div className="project-images">
-            <img src={IMG2} alt="" />
+            <img src="https://i.ibb.co/6ZRsHJk/project2-1.png" alt="" />
           </div>
           <div className="project-images">
-            <img src={IMG3} alt="" />
+            <img src="https://i.ibb.co/YczPPrG/project2-2.png" alt="" />
           </div>
         </div>
         <div className="project-dec">
