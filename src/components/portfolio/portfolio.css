@@ -22,13 +22,23 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
+  font-size: 18px;
+}
+.portfolio__item p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.portfolio__item-cta .newBtn {
+  width: 100%;
+  text-align: center;
 }
 
 /* PortfolioCAT CSS */
