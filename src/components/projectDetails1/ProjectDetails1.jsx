@@ -1,6 +1,5 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
-
 const ProjectDetails1 = () => {
   return (
     <section className="project-details">

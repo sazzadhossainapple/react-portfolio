@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import ProjectDetails from "../components/projectDetails/ProjectDetails";
+
 import ProjectDetails1 from "../components/projectDetails1/ProjectDetails1";
 import ProjectDetails2 from "../components/projectDetails2/ProjectDetails2";
-import ProtfolioDetails from "../components/protfolioDetails/ProtfolioDetails";
 import Main from "../layout/Main";
 import Blog from "../pages/Blog/Blog";
 import Home from "../pages/Home/Home";
@@ -21,8 +22,9 @@ export const router = createBrowserRouter([
       },
       {
         path: "/project1",
-        element: <ProtfolioDetails></ProtfolioDetails>,
+        element: <ProjectDetails></ProjectDetails>,
       },
+
       {
         path: "/project2",
         element: <ProjectDetails1></ProjectDetails1>,
