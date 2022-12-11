@@ -1,0 +1,19 @@
+.navbar {
+  background: var(--color-bg-variant);
+  padding: 15px 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.navbar-items {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

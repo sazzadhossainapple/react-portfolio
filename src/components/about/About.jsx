@@ -45,7 +45,7 @@ const About = () => {
             pixel-perfect design.
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Contact me
           </a>
         </div>
       </div>
