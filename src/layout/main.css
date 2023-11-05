@@ -1,0 +1,13 @@
+.messanger-contanier {
+  position: relative;
+}
+.mannanger-img {
+  width: 80px;
+  position: fixed;
+  bottom: 6%;
+  right: 10px;
+}
+
+.massanger-log {
+  width: 100%;
+}
