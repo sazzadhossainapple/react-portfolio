@@ -1,85 +1,85 @@
 .resume__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
 }
 
 .resume__container > div {
-  background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
+    background: var(--color-bg-variant);
+    padding: 2.4rem 4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
 }
 
 .resume__container > div:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 .experience__icon-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
 }
 .experience__icon-text > h3 {
-  color: var(--color-primary);
+    color: var(--color-primary);
 }
 .experience__icon {
-  color: var(--color-primary);
-  font-size: 1.4rem;
+    color: var(--color-primary);
+    font-size: 1.4rem;
 }
 
 .resume__details {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .company-name {
-  color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 /* ========== MEDIA QUERIES (MEDIA DEVICE) ========== */
 @media only screen and (max-width: 1024px) {
-  .resume__container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  .resume__container > div {
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-  .resume__content {
-    padding: 1rem;
-  }
+    .resume__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .resume__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .resume__content {
+        padding: 1rem;
+    }
 }
 
 /* ========== MEDIA QUERIES (MEDIA DEVICE) ========== */
 @media only screen and (max-width: 1024px) {
-  .resume__container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  .resume__container > div {
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-  .resume__content {
-    padding: 1rem;
-  }
+    .resume__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .resume__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .resume__content {
+        padding: 1rem;
+    }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICE) ========== */
 @media only screen and (max-width: 600px) {
-  .resume__container {
-    gap: 1rem;
-  }
-  .resume__container > div {
-    width: 100%;
-    padding: 2rem 1rem;
-  }
+    .resume__container {
+        gap: 1rem;
+    }
+    .resume__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
