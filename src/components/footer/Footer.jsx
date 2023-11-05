@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 import IMGFOOTER from '../../asserts/shlogo.png';
 import './footer.css';
 
