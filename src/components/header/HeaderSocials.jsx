@@ -1,33 +1,26 @@
-import React from "react";
-import { BsFacebook, BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 
 const HeaderSocials = () => {
-  return (
-    <div className="header__socials">
-      <a
-        href="https://www.linkedin.com/in/sazzadhossainapple/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <BsLinkedin />
-      </a>
-      <a
-        href="https://github.com/sazzadhossainapple"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FaGithub />
-      </a>
-      <a
-        href="https://www.facebook.com/sazzadhossain.apple"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <BsFacebook />
-      </a>
-    </div>
-  );
+    return (
+        <div className="header__socials">
+            <a
+                href="https://www.linkedin.com/in/sazzadhossainapple/"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <BsLinkedin />
+            </a>
+            <a
+                href="https://github.com/sazzadhossainapple"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <FaGithub />
+            </a>
+        </div>
+    );
 };
 
 export default HeaderSocials;
