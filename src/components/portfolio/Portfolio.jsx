@@ -10,7 +10,6 @@ const allCatValues = [
 ];
 
 const Portfolio = () => {
-    const [catItems, setCatItems] = useState(allCatValues);
     const [portfolioData, setPortfolioData] = useState(data);
 
     const filterData = (categoryPortfolioData) => {
@@ -30,7 +29,7 @@ const Portfolio = () => {
         <section id="portfolio">
             <h5>My Recent Work</h5>
             <h2>Projects</h2>
-            <PortfolioCAT filterData={filterData} catItems={catItems} />
+            <PortfolioCAT filterData={filterData} catItems={allCatValues} />
             <PortfolioItem portfolioData={portfolioData} />
             {/* <button className=" load-more btn btn-primary" onClick={showMoreItems}>
         Load more
