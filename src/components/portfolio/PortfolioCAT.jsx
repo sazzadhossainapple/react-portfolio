@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const PortfolioCAT = ({ filterData, catItems }) => {
+    const [activeFilter, setActiveFilter] = useState(catItems[0]);
+
+    const handleFilterClick = (curClem) => {
+        setActiveFilter(curClem);
+        filterData(curClem);
+    };
+
     return (
         <>
             <div className="portfolio__filters">
                 {catItems.map((curClem, index) => {
                     return (
-                        <span key={index} onClick={() => filterData(curClem)}>
+                        <span
+                            key={index}
+                            className={
+                                activeFilter === curClem
+                                    ? 'portfolio__active'
+                                    : ''
+                            }
+                            onClick={() => handleFilterClick(curClem)}
+                        >
                             {curClem}
                         </span>
                     );
                 })}
-                {/* <span onClick={() => setPortfolioData(data)}>All</span> */}
-                {/* <span onClick={() => filterData("Web")}>Web</span>
-        <span onClick={() => filterData("React Js")}>React Js</span> */}
             </div>
         </>
     );

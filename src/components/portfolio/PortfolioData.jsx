@@ -45,4 +45,15 @@ export const data = [
         category: 'React Js',
         link: '/project4',
     },
+    {
+        id: 5,
+        image: 'https://i.ibb.co/85LP5H1/home-page.png',
+        title: 'Toureest Website',
+        description:
+            'This is a Toureest website. Tour packages online booking system ',
+        github: 'https://github.com/sazzadhossainapple/toureest',
+        demo: 'https://toureest.netlify.app/',
+        category: 'HTML',
+        link: '/project4',
+    },
 ];

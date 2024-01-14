@@ -69,6 +69,11 @@
     color: var(--color-bg);
 }
 
+.portfolio__active {
+    background: var(--color-primary);
+    color: var(--color-bg) !important;
+}
+
 /* .active-data {
   background: var(--color-primary);
 } */
