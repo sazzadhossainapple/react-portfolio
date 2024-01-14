@@ -54,6 +54,6 @@ export const data = [
         github: 'https://github.com/sazzadhossainapple/toureest',
         demo: 'https://toureest.netlify.app/',
         category: 'HTML',
-        link: '/project4',
+        link: '/project5',
     },
 ];
