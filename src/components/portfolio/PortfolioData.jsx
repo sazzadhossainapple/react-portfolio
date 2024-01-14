@@ -56,4 +56,15 @@ export const data = [
         category: 'HTML',
         link: '/project5',
     },
+    {
+        id: 6,
+        image: 'https://i.ibb.co/Zh8Vgp2/home-travel.png',
+        title: 'Easy Travel BD',
+        description:
+            'This website is a bus ticketing system. Users can book bus tickets online.',
+        github: 'https://github.com/nuruzaman-milon/easy-travel-bd-client',
+        demo: 'https://easy-travel-bd.web.app/',
+        category: 'React Js',
+        link: '/project6',
+    },
 ];
