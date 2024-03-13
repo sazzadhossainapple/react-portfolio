@@ -67,4 +67,26 @@ export const data = [
         category: 'React Js',
         link: '/project6',
     },
+    {
+        id: 7,
+        image: 'https://i.ibb.co/M89LXpf/glil-1.png',
+        title: 'Guardian Life Insurance',
+        description:
+            'This website is a Insurance Company. Users can see the CMS to company profile.',
+        github: '',
+        demo: 'https://www.guardianlife.com.bd/',
+        category: 'React Js',
+        link: '/project7',
+    },
+    {
+        id: 8,
+        image: 'https://i.ibb.co/tc7WM7w/teams-1.png',
+        title: 'Teams 360',
+        description:
+            'This website is a HRM software . Users can see the admin and vendor dashboard.',
+        github: '',
+        demo: 'https://teams360.nextgenitltd.com/',
+        category: 'React Js',
+        link: '/project8',
+    },
 ];
