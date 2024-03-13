@@ -8,6 +8,7 @@ import ProjectDetails5 from '../components/projectDetails5/ProjectDetails5';
 import ProjectDetails6 from '../components/projectDetails6/ProjectDetails6';
 import ProjectDetails7 from '../components/projectDetails7/ProjectDetails7';
 import ProjectDetails8 from '../components/projectDetails8/ProjectDetails8';
+import ProjectDetails9 from '../components/projectDetails9/ProjectDetails9';
 import Main from '../layout/Main';
 import Blog from '../pages/Blog/Blog';
 import Home from '../pages/Home/Home';
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
             {
                 path: '/project8',
                 element: <ProjectDetails8 />,
+            },
+            {
+                path: '/project9',
+                element: <ProjectDetails9 />,
             },
         ],
     },
