@@ -8,27 +8,7 @@ import './contact.css';
 const Contact = () => {
     const form = useRef();
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-
-    //     emailjs.sendForm(
-    //         'service_j88tghf',
-    //         'template_jphni1p',
-    //         form.current,
-    //         'j4N0x_xLcpNo4wNTq'
-    //     );
-    //     // .then(
-    //     //   (result) => {
-    //     //     console.log(result.text);
-    //     //   },
-    //     //   (error) => {
-    //     //     console.log(error.text);
-    //     //   }
-    //     // );
-
-    //     e.target.reset();
-    //     toast.success('Your message sent successfully');
-    // };
+    
 
     const sendEmail = (e) => {
         e.preventDefault();
