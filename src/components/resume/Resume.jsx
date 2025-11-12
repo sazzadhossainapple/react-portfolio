@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGraduationCap } from 'react-icons/fa';
 import { GiAchievement } from 'react-icons/gi';
 import { MdWork } from 'react-icons/md';
@@ -20,7 +19,7 @@ const Resume = () => {
                     <div className="resume__content">
                         <article className="resume__details">
                             <div>
-                                <h4>Frontend Developer</h4>
+                                <h4>MERN Stack Developer</h4>
                                 <a
                                     href="https://nextgenitltd.com/"
                                     target="_blank"
